@@ -1,6 +1,6 @@
-import { useSelector, useDispatch, connect } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 
-import { counterActions } from '../store/index.js';
+import { counterActions } from '../store/counter';
 import classes from './Counter.module.css';
 
 const Counter = () => {
@@ -37,6 +37,7 @@ const Counter = () => {
       </main>
     );
 }
+
 
 export default Counter;
 

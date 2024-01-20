@@ -8,7 +8,7 @@ import UserProfile from './components/UserProfile';
 
 
 function App() {
-  const isAuth = useSelector(state => state.auth.isAuthentauthSliceicated);
+  const isAuth = useSelector(state => state.auth.isAuthenticated);
   console.log(isAuth)
 
   return (
